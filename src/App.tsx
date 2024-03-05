@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navigation from "./components/Navigation";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -11,7 +11,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="app">
-        <Navigation />
+        <Navbar />
         <Routes>
           <Route
             path="/home"
