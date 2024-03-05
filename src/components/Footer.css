@@ -1,0 +1,50 @@
+.footer {
+  background-color: #c2c2c2; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 10px 0; /* Add some padding */
+}
+
+.footer-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  max-width: 1440px; /* Set max width */
+  margin: 0 auto; /* Center the navbar */
+  padding: 0 20px; /* Add padding */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu {
+  list-style: none; /* Remove list bullet points */
+  display: flex; /* Use flexbox for layout */
+  align-items: center;
+  justify-content: center;
+  margin: 17px, 0;
+  padding: 0;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px; /* Set font size */
+  margin: 17px, 0;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none; /* Remove underline */
+  margin: 10px;
+  color: #cecece; /* Set text color */
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

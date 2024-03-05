@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navigation from "./components/Navigation";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -11,14 +11,24 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="app">
+        <Navbar />
         <Routes>
-          <Navigation />
           <Route
-            path="/"
+            path="/home"
             element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
           />
-          <Route path="/" element={<Projects />} />
-          <Route path="/" element={<About />} />
+          <Route
+            path="/projects"
+            element={
+              <Projects headerTitle="Creative, Aesthetically Pleasing, Functional" />
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <About aboutHeader="Inspired by a lustrous background in both visual and musical arts" />
+            }
+          />
         </Routes>
         <Footer />
       </div>
