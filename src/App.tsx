@@ -17,7 +17,12 @@ const App: React.FC = () => {
             path="/home"
             element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
           />
-          <Route path="/projects" element={<Projects />} />
+          <Route
+            path="/projects"
+            element={
+              <Projects headerTitle="Creative, Aesthetically Pleasing, Functional" />
+            }
+          />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
