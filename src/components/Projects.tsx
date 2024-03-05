@@ -5,10 +5,10 @@ interface ProjectsProps {
   headerTitle: string;
 }
 
-const Projects: React.FC<ProjectsProps> = () => {
+const Projects: React.FC<ProjectsProps> = ({ headerTitle }) => {
   return (
     <div className="projects-container">
-      <div className="projects-header"></div>
+      {headerTitle && <h1 className="projects-header">{headerTitle}</h1>}
     </div>
   );
 };
