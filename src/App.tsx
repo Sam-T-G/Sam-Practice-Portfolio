@@ -23,7 +23,12 @@ const App: React.FC = () => {
               <Projects headerTitle="Creative, Aesthetically Pleasing, Functional" />
             }
           />
-          <Route path="/about" element={<About />} />
+          <Route
+            path="/about"
+            element={
+              <About aboutHeader="Inspired by a lustrous background in both visual and musical arts" />
+            }
+          />
         </Routes>
         <Footer />
       </div>
