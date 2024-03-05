@@ -24,7 +24,7 @@
   display: flex; /* Use flexbox for layout */
   align-items: center;
   justify-content: center;
-  margin: 17px;
+  margin: 17px, 0;
   padding: 0;
 }
 
@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px; /* Set font size */
+  margin: 17px, 0;
 }
 
 .footer-link {
