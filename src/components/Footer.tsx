@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
           <Link to="/home">Home</Link>
         </li>
         <li className="footer-button">
-          <Link to="/home">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="navigation-button">
-          <Link to="/footer">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
     </div>
