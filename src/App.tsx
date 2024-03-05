@@ -11,14 +11,14 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="app">
+        <Navigation />
         <Routes>
-          <Navigation />
           <Route
-            path="/"
+            path="/home"
             element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
           />
-          <Route path="/" element={<Projects />} />
-          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
