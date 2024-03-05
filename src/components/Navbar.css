@@ -8,7 +8,6 @@
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Align items horizontally */
   align-items: center; /* Align items vertically */
-  max-width: 1440px; /* Set max width */
   margin: 0 auto; /* Center the navbar */
   padding: 0 20px; /* Add padding */
   color: #e0e0e0; /* Set text color */
@@ -18,6 +17,7 @@
   color: #c9c9c9; /* Set text color */
   text-decoration: none; /* Remove underline */
   font-size: 24px; /* Set font size */
+  justify-self: left;
 }
 
 .navbar-menu {
