@@ -10,11 +10,12 @@
 
   .about-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
   .about-portrait{
     height: 300px;
     margin: 20px;
+    padding: 20px;
   }
