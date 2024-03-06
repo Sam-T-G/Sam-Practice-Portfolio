@@ -18,7 +18,7 @@ const Home: React.FC<HomeProps> = ({ title, subtitle, heroImage }) => {
           {title && <h1 className="hero-title">{title}</h1>}
           {subtitle && <h1 className="hero-subtitle">{subtitle}</h1>}
           <img
-            className="about-portrait"
+            className="home-portrait"
             src="/src/assets/self-portrait.jpg"
             alt="home portrait placeholder"
           />
