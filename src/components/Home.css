@@ -2,12 +2,32 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-element {
-  text-align: center; /* Center text */
+  text-align: center;
+  display: flex;
+  flex-direction: row; /* align title and subtitle horizontally */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* spacing between title/subtitle and portrait */
+}
+
+.hero-text {
+  flex: 1; /* Take remaining space */
+}
+
+.home-portrait-container {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflow */
+  border-radius: 50%; /* Apply rounded corners */
+}
+
+.home-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container */
 }
