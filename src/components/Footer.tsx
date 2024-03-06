@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <div className="footer-container">
       <ul className="footer-menu">
         <li className="footer-button">
-          <Link to="/home" className="footer-link">
+          <Link to="/" className="footer-link">
             Home
           </Link>
         </li>

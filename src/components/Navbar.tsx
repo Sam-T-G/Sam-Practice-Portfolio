@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const Navigation: React.FC = () => {
   return (
     <div className="navbar-container">
-      <Link to="/home" className="navbar-logo">
+      <Link to="/" className="navbar-logo">
         Sam Gerungan
       </Link>
       <ul className="navbar-menu">
         <li className="navbar-button">
-          <Link to="/home" className="navbar-link">
+          <Link to="/" className="navbar-link">
             Home
           </Link>
         </li>

@@ -14,7 +14,8 @@ const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route
-            path="/home"
+            path="/"
+            index
             element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
           />
           <Route
