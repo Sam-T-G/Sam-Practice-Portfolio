@@ -16,7 +16,13 @@ const App: React.FC = () => {
           <Route
             path="/"
             index
-            element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
+            element={
+              <Home
+                title="Sam Gerungan"
+                subtitle="Software Engineer with an eye for design, passion for innovation, and meticulous attention to detail"
+                heroImage=""
+              />
+            }
           />
           <Route
             path="/projects"
