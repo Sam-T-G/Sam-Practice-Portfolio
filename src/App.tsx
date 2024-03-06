@@ -27,7 +27,10 @@ const App: React.FC = () => {
           <Route
             path="/about"
             element={
-              <About aboutHeader="Inspired by a lustrous background in both visual and musical arts" />
+              <About
+                aboutHeader="Inspired by a lustrous background in both visual and musical arts"
+                aboutText="With formal education in the musical arts and Professional Experience in photography and the visual arts,"
+              />
             }
           />
         </Routes>
