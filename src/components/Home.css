@@ -2,12 +2,48 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-element {
-  text-align: center; /* Center text */
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper {
+  margin: 70px;
+  width: 80%;
+  max-width: 1920px;
+  text-align: center;
+  display: flex;
+  flex-direction: row; /* align title and subtitle horizontally */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* spacing between title/subtitle and portrait */
+}
+
+.hero-text {
+  flex: 1; /* Take remaining space */
+  text-align: left;
+  max-width: 1000px;
+}
+
+.hero-subtitle {
+  font-size: 40px;
+}
+
+.home-portrait-container {
+  width: 20vw; /* Adjust width as needed */
+  height: 20vw; /* Adjust height as needed */
+  max-height: 400px;
+  max-width: 400px;
+  overflow: hidden; /* Hide overflow */
+  border-radius: 50%; /* Apply rounded corners */
+}
+
+.home-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container */
 }

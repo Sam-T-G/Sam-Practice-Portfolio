@@ -14,8 +14,15 @@ const App: React.FC = () => {
         <Navbar />
         <Routes>
           <Route
-            path="/home"
-            element={<Home title="Sam Gerungan" subtitle="" heroImage="" />}
+            path="/"
+            index
+            element={
+              <Home
+                title="Sam Gerungan"
+                subtitle="Software Engineer with an eye for design, passion for innovation, and meticulous attention to detail"
+                heroImage=""
+              />
+            }
           />
           <Route
             path="/projects"
@@ -26,7 +33,10 @@ const App: React.FC = () => {
           <Route
             path="/about"
             element={
-              <About aboutHeader="Inspired by a lustrous background in both visual and musical arts" />
+              <About
+                aboutHeader="Inspired by a lustrous background in both visual and musical arts"
+                aboutText="With formal education in the musical arts and Professional Experience in photography and the visual arts,"
+              />
             }
           />
         </Routes>

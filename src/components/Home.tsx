@@ -15,8 +15,19 @@ const Home: React.FC<HomeProps> = ({ title, subtitle, heroImage }) => {
           className="hero-element"
           style={{ backgroundImage: `url(${heroImage})` }}
         >
-          {title && <h1 className="hero-title">{title}</h1>}
-          {subtitle && <h1 className="hero-subtitle">{subtitle}</h1>}
+          <div className="home-wrapper">
+            <div className="hero-text">
+              {title && <h1 className="hero-title">{title}</h1>}
+              {subtitle && <h1 className="hero-subtitle">{subtitle}</h1>}
+            </div>
+            <div className="home-portrait-container">
+              <img
+                className="home-portrait"
+                src="/src/assets/self-portrait.jpg"
+                alt="home portrait placeholder"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
