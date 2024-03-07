@@ -12,7 +12,9 @@
 }
 
 .home-wrapper {
+  margin: 70px;
   width: 80%;
+  max-width: 1920px;
   text-align: center;
   display: flex;
   flex-direction: row; /* align title and subtitle horizontally */
@@ -24,11 +26,18 @@
 .hero-text {
   flex: 1; /* Take remaining space */
   text-align: left;
+  max-width: 1000px;
+}
+
+.hero-subtitle {
+  font-size: 40px;
 }
 
 .home-portrait-container {
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
+  width: 20vw; /* Adjust width as needed */
+  height: 20vw; /* Adjust height as needed */
+  max-height: 400px;
+  max-width: 400px;
   overflow: hidden; /* Hide overflow */
   border-radius: 50%; /* Apply rounded corners */
 }
