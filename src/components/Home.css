@@ -19,11 +19,11 @@
   justify-content: center;
   align-items: center;
   gap: 20px; /* spacing between title/subtitle and portrait */
-
 }
 
 .hero-text {
   flex: 1; /* Take remaining space */
+  text-align: left;
 }
 
 .home-portrait-container {
