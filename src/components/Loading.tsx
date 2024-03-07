@@ -1,0 +1,11 @@
+import React from "react";
+
+const Loading: React.FC = () => {
+  return (
+    <div className="loading-component">
+      <p>Loading...</p>
+    </div>
+  );
+};
+
+export default Loading;
