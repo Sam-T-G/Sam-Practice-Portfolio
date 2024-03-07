@@ -7,12 +7,19 @@
 }
 
 .hero-element {
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper {
+  width: 80%;
   text-align: center;
   display: flex;
   flex-direction: row; /* align title and subtitle horizontally */
   justify-content: center;
   align-items: center;
   gap: 20px; /* spacing between title/subtitle and portrait */
+
 }
 
 .hero-text {
